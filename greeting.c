@@ -7,8 +7,8 @@ greeting (char *temp1,char *temp2) // greeting function that says hello
     printf ("Hello %s %s\n", temp1, name); //prints the greeting
 }
 
-main(int argc, char * argv [])
+main(int argc, char * argv []) // pay attention to the formatting here
 {
-    greeting(argv[1], argv[2]);
-    printf ("bye %s %s\n", argv[1], argv[2]); // says bye
-} // terminates program
+    greeting(argv[1], argv[2]); // calls the function and returns the title and name
+    printf ("Goodbye %s %s\n", argv[1], argv[2]); // says goodbye
+} // ends
