@@ -1,3 +1,5 @@
+// when executing run the command as ./greeting x y 
+
 // greeting.c
 #include <stdio.h>  //required for screen printing
 greeting (char *temp1,char *temp2) // greeting function that says hello
