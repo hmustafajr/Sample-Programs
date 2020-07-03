@@ -38,4 +38,8 @@ label1 = 'Justice for'
 label2
 'Breonna Taylor'
 
-Summing it up, label1 and label2 both point to 'Breonna Taylor'
+Summing it up:
+Two labels were pointing at the same string in memory:
+label1 and label2 both point to 'Breonna Taylor'
+
+label1 is now reassigned to point to a different string
